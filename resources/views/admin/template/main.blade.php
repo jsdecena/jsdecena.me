@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BaseApp | Blank Page</title>
+    <title>jsdecena.me</title>
     <!-- bower::css-->
     <link rel="stylesheet" href="{{asset('css/all.css')}}">
     <!-- endbower::css-->    

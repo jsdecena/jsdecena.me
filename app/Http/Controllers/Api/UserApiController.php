@@ -105,8 +105,6 @@ class UserApiController extends Controller
      */
     public function destroy($id)
     {
-        User::find($id)->delete();
-
-        return response()->json(['data' => ['message' => 'User deleted successfully']]);
+        //
     }
 }
