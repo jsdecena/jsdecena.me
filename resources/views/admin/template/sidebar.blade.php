@@ -49,6 +49,15 @@
           <li><a href="{{route('admin.role.create')}}"><i class="fa fa-plus"></i> Add a role</a></li>
         </ul>
       </li>
+      <li class="treeview @if(request()->segment(2) == 'work') active @endif">
+        <a href="#">
+          <i class="fa fa-dashboard"></i> <span>Works</span> <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="{{route('admin.work.index')}}"><i class="fa fa-circle-o"></i> List Works</a></li>
+          <li><a href="{{route('admin.work.create')}}"><i class="fa fa-plus"></i> Add a work</a></li>
+        </ul>
+      </li>      
       <li class="header">LABELS</li>
       <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
       <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
